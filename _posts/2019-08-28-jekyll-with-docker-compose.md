@@ -15,7 +15,7 @@ bigimg: /img/jekyll_and_hyde_movie.jpg
 ## Setup
 The Jekyll image runs on alpine linux and adds layers with all the dependencies we should need for local development.
 
-We are going to create a simple blog in the setup, but there is no reason why you shouldn't be able to run this using a Jekyll site you already have setup.
+We are going to create a simple blog in the setup, but there is no reason why you shouldn't be able to run this using a Jekyll site you have already setup.
 
 ### 1. Create our development directory
 Create a directory called **blog** and change directories into it using your favorite terminal. The directory can be where ever you want. This is how I made mine:
@@ -112,4 +112,4 @@ docker-compose down
 ```
 
 ## Conclusion
-Hopefully this helps you as much as it helped me. As someone who is new to Jekyll it has made my life considerably easier because I know the first step of learning a new technology (getting it running) is already done.
+Hopefully this helps you as much as it helped me. As someone who is new to Jekyll it has made my life considerably easier because I know the first step of learning a new technology is already done.
