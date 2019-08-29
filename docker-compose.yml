@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  blog:
+    image: jekyll/jekyll:4.0
+    command: ["jekyll", "serve", "--watch", "--draft"]
+    ports:
+      - "4000:4000"
+    volumes:
+     - type: bind
+       source: .
+       target: /srv/jekyll
