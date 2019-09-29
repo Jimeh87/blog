@@ -22,12 +22,12 @@ I wanted to experience a Football game. I figured I could buy some tickets last 
 ![Football game](../img/football_game.vr.jpg){: .center-block :}
 
 ## Getting around London
-If you try to walk everywhere you are going to have a bad time. For example it takes an hour to get from Big Ben to the Tower of London. The best way to get around is using buses and the underground. Here are a few tips:
+If you try to walk everywhere you are going to have a bad time. For example it takes an hour to walk from Big Ben to the Tower of London. The best way to get around is using buses and the underground. Here are a few tips:
 * Get an Oyster card. They may seem a little pricey but it is much less expensive than paying for each trip. They allow you to go on the buses, subways (underground), trains, and some boats. A big confusion I had was what zones I should buy for. If you are touring around London you should just need Zones 1 - 3.
 * Use a map app. I used google maps and my friend used apple maps. Surprisingly apple maps was better because it tells you which direction you need to go on the underground instead of just the stops. I also hear an app called [City Mapper](https://citymapper.com/london) is the best for navigating the tubes and buses of London.
 * Avoid mass transit during rush hour.
 * It is okay to take an Uber or a Taxi when you are in a pinch. The prices are surprisingly reasonable.
-* When walking cars will only stop for you on cross walks (zebra crossings), and red lights.
+* When you are crossing the street, cars will only stop for you on cross walks (zebra crossings), and red lights.
 
 ![Bus](../img/london_bus.jpg){: .center-block :}
 
