@@ -11,10 +11,13 @@ Here is how you truncate all of the tables in a schema. Great for keeping data f
 
 #### How to do it
 
-```hsqldb
+You just need to run the following HSQLDB statement to delete all that pesky table data.
+
+```sql
 TRUNCATE SCHEMA PUBLIC AND COMMIT NO CHECK;
 ```
-where `PUBLIC` is the schema name.
+
+Where `PUBLIC` is the schema name.
 
 #### When to use it
 
