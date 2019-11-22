@@ -52,7 +52,7 @@ docker container run -v $PWD:/srv/jekyll -p 4000:4000 --name jekyll_site jekyll/
 {: .box-warning}
 Skip this step if you are running against an existing Jekyll site.
 
-We are going to use our Docker Compose file to generate our blog by running `jekyll new --force .` against it which will generate a new Jekyll site. The `--force` is to force Jekyll to create the site even though we already have a file in this directory. To do this we are going to use the docker compose [run](https://docs.docker.com/compose/reference/run/) command which will create a container based on the compose file with a custom command.
+We are going to use our Docker Compose file to generate our blog by running `jekyll new --force .` against the container it creates which will generate a new Jekyll site. The `--force` is to force Jekyll to create the site even though we already have a file in this directory. To do this we are going to use the docker compose [run](https://docs.docker.com/compose/reference/run/) command which will create a container based on the compose file and run a command against it.
 ```shell
 docker-compose run jekyll_site jekyll new --force .
 ```
@@ -61,7 +61,7 @@ docker-compose run jekyll_site jekyll new --force .
 Run `docker-compose up` and wait until you see `Server running... press ctrl-c to stop.`. Then you should be able to go to [http://localhost:4000](http://localhost:4000) to see your new blog. If you make a change to the `index.markdown` file and refresh your browser the change should be reflected on your site!
 
 {: .box-note}
-The first time you run this it will take quite awhile, but it will be much faster the next time.
+The first time you run this it will take quite awhile because docker is downloading a lot of dependencies, but it will be much faster the next time.
 
 ## Development Tips
 
@@ -105,7 +105,7 @@ docker-compose exec jekyll_site bash
 ```
 
 ### Clean up
-If you don't plan on doing any work on your Jekyll site for awhile you could remove the containers, networks, images, and volumes you created with your Docker Compose by running:
+If you don't plan on doing any work on your Jekyll site for awhile you can remove the containers, networks, images, and volumes you created with your Docker Compose by running:
 
 ```shell
 docker-compose down
