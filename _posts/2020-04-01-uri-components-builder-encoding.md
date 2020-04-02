@@ -64,7 +64,7 @@ class UriComponentsBuilderQueryParamEncodingTest {
 				.toString();
 
 		// Wait did UriComponentsBuilder just encode my space?
-		assertEquals("https:/blog.jimrennie.com/api?foo=a+b&c%20d", uri);
+		assertEquals("https://blog.jimrennie.com/api?foo=a+b&c%20d", uri);
 	}
 
 	@Test
